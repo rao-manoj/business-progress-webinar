@@ -3461,10 +3461,11 @@ input, select, textarea {
 			-ms-transition: opacity 0.2s ease;
 			transition: opacity 0.2s ease;
 			height: inherit;
-			left: 1.25em;
+			/*left: 1.25em; */
 			line-height: inherit;
 			position: absolute;
 			top: 0;
+			width: 100&;
 		}
 
 			#header h1 a {
