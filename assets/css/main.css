@@ -4007,12 +4007,16 @@ input, select, textarea {
 	}
 
     @media only screen and (min-width: 768px) {
-		.col-left-menu{
+		.col-left{
 			width: 50%; 
 			float: left;
 		}
-		.col-right-menu{
+		.col-right{
 			width: 50%; 
 			float: right;
 		}
+			.col-right .button.primary{
+				float:right;
+				margin 1.25em
+			}
 	}
