@@ -4004,6 +4004,7 @@ input, select, textarea {
 /* For mobile phones: */
     [class*="col-"] {
 		width: 100%;
+		text-align: center;
 	}
 
     @media only screen and (min-width: 768px) {
