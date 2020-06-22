@@ -2792,8 +2792,8 @@ input, select, textarea {
 	}
 
 		.wrapper > .inner {
-			width: 60em;
-			margin: 0 auto;
+			width: 100%;
+			margin: auto;
 		}
 
 			@media screen and (max-width: 1280px) {
@@ -4035,4 +4035,8 @@ input, select, textarea {
 		background: #f4da58;
 		margin: 0 25% 0 25%;
 		color: black;
+	}
+
+	#one.wrapper {
+		padding: 0;
 	}
