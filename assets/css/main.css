@@ -2487,7 +2487,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #ed4933;
+			background-color: #f4da58;
 			box-shadow: none !important;
 			color: #ffffff !important;
 		}
@@ -2497,7 +2497,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #ef5e4a !important;
+				background-color: #f4da58 !important;
 			}
 
 			input[type="submit"].primary:active,
@@ -2505,7 +2505,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #eb341c !important;
+				background-color: #f4da58 !important;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -4023,6 +4023,6 @@ input, select, textarea {
 	}
 
 	.button-nav {
-		background: #ed4933;
+		background: #f4da58;
 		margin: 0 25% 0 25%
 	}
