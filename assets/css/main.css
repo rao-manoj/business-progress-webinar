@@ -4037,6 +4037,9 @@ input, select, textarea {
 		color: black;
 	}
 
-	#one.wrapper {
-		padding: 0;
+	#one{
+		display: table;
 	}
+		#one.wrapper {
+			padding: 0;
+		}
