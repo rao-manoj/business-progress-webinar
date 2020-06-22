@@ -4021,3 +4021,8 @@ input, select, textarea {
 				margin 1.25em
 			}
 	}
+
+	.button-nav {
+		background: #ed4933;
+		margin: 0 25% 0 25%
+	}
