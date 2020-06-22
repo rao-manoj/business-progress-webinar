@@ -4043,3 +4043,6 @@ input, select, textarea {
 		#one.wrapper {
 			padding: 0;
 		}
+		#one.image{
+			max-width: 100%;
+		}
