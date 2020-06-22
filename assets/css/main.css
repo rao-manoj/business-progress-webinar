@@ -2489,7 +2489,7 @@ input, select, textarea {
 		.button.primary {
 			background-color: #f4da58;
 			box-shadow: none !important;
-			color: #ffffff !important;
+			color: black !important;
 		}
 
 			input[type="submit"].primary:hover,
@@ -4016,9 +4016,10 @@ input, select, textarea {
 			width: 50%; 
 			float: right;
 		}
-			.col-right .button.primary{
+			.col-right .button-nav{
 				float:right;
-				margin 1.25em
+				margin 1.25em;
+				color: black;
 			}
 	}
 
