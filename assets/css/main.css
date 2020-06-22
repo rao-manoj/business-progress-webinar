@@ -3998,10 +3998,20 @@ input, select, textarea {
 		background-color: #1d242a;
 	}
 
-	.left-menu{
-		float: left;
+/*Added by Manoj */
+
+/* For mobile phones: */
+    [class*="col-"] {
+		width: 100%;
 	}
 
-	.right-menu{
-		float: right;
+    @media only screen and (min-width: 768px) {
+		.col-left-menu{
+			width: 50%; 
+			float: left;
+		}
+		.col-right-menu{
+			width: 50%; 
+			float: right;
+		}
 	}
