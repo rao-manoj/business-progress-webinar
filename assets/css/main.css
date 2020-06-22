@@ -2817,8 +2817,8 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #21b2a6;
-			color: #c8ece9;
+			background-color: black;
+			color:white;
 		}
 
 			.wrapper.style1 strong, .wrapper.style1 b {
@@ -3631,7 +3631,7 @@ input, select, textarea {
 
 		#banner p {
 			letter-spacing: 0.225em;
-			text-transform: uppercase;
+			text-transform: none;
 		}
 
 			#banner p a {
