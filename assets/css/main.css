@@ -4005,6 +4005,7 @@ input, select, textarea {
     [class*="col-"] {
 		width: 100%;
 		text-align: center;
+
 	}
 
     @media only screen and (min-width: 768px) {
@@ -4015,15 +4016,15 @@ input, select, textarea {
 		.col-right{
 			width: 50%; 
 			float: right;
+			margin 1.25em;
 		}
-			.col-right .button-nav{
-				float:right;
-				margin 1.25em;
-				color: black;
+			.col-right .button-nav{			
+				margin: 0 25% 0 25%;
 			}
 	}
 
 	.button-nav {
 		background: #f4da58;
-		margin: 0 25% 0 25%
+		margin: 0 25% 0 25%;
+		color: black;
 	}
