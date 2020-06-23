@@ -2078,15 +2078,18 @@ input, select, textarea {
 			}
 
 		.icon.style1 {
-			color: #00ffcc;
+			color: #f4da58
+			;
 		}
 
 		.icon.style2 {
-			color: #00f0ff;
+			color: #f4da58
+			;
 		}
 
 		.icon.style3 {
-			color: #76ddff;
+			color:#f4da58
+			;
 		}
 
 /* Image */
@@ -2604,7 +2607,8 @@ input, select, textarea {
 
 			.features li:before {
 				display: block;
-				color: #00ffcc;
+				color: #f4da58
+				;
 				position: absolute;
 				left: 1.75em;
 				top: 2.75em;
@@ -2792,7 +2796,7 @@ input, select, textarea {
 	}
 
 		.wrapper > .inner {
-			width: 100%;
+			width: 60em;
 			margin: auto;
 		}
 
@@ -2871,7 +2875,8 @@ input, select, textarea {
 
 				.wrapper.style1 select option {
 					color: #ffffff;
-					background: #21b2a6;
+					background: #f4da58
+					;
 				}
 
 			.wrapper.style1 input[type="checkbox"] + label,
@@ -2980,7 +2985,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #505393;
+			background-color: black;
 			color: #d3d4e4;
 		}
 
@@ -4037,13 +4042,3 @@ input, select, textarea {
 		color: black;
 	}
 
-	#one{
-		display: table;
-	}
-		#one.wrapper {
-			padding: 0;
-		}
-		#one .image{
-			max-width: 100%;
-			margin: auto;
-		}
