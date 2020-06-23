@@ -3450,7 +3450,7 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease;
 		-ms-transition: background-color 0.2s ease;
 		transition: background-color 0.2s ease;
-		background: #2e3842;
+		background: #141d26;
 		height: 3em;
 		left: 0;
 		line-height: 3em;
@@ -4021,24 +4021,84 @@ input, select, textarea {
 		.col-right{
 			width: 50%; 
 			float: right;
-			margin 1.25em;
+			/*margin 1.25em;*/
 		}
 			.col-right .button-nav{			
-				margin: 0 10% 0 50%;
+				/*margin: 0 10% 0 50%;*/
+				margin:0;
 			}
 		.col-3{
 			width: 25%; 
-			float: left;
+			
+		}
+		.col-6{
+			width: 50%;
 		}
 		.col-9{
-			width: 75%; 
-			float: right;
+			width: 75%;			
+			
 		}
 	}
+	
+	.cta-nav{
+		width: 50% ;
+	}
+
+
+	.left{
+		float: left;
+	}
+	.right{
+		float:right;
+	}
+
+	.about{
+		background: #2e3842 ;
+		 display: table;
+	}
+		.about .col-9{
+			margin: auto; 
+			padding:2em 4em 0.1em 4em;
+			text-align: left;
+		}
 
 	.button-nav {
 		background: #f4da58;
-		margin: 0 25% 0 25%;
 		color: black;
 	}
+	
+
+	img.large{
+		display:none;
+		
+	}
+	img.small{
+		display:block;
+		margin:auto;
+	}
+	@media only screen and (min-width: 768px) {
+		img.large{
+			display:block;
+			margin:auto;
+			margin-top: 3%;
+		}
+		img.small{
+			display:none;
+		}
+	}
+
+	
+	img.image{
+		max-height: 100%;
+		max-width: 100%;
+	}
+
+	.timer{
+		display: block;
+		text-align: center;
+		background-color: black ;		;
+	}
+		.timer #countdown{
+			color: #f4da58;
+		}
 

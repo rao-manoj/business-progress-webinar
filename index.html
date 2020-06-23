@@ -10,8 +10,9 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<body class="landing is-preload">
 
+	<body class="landing is-preload">
+		
 		<!-- Page Wrapper -->
 			<div id="page-wrapper">
 
@@ -19,8 +20,17 @@
 					<header id="header" class="alt">
 						
 						<h1 >
-							<div class="col-left"><a href="index.html">Business Progress Webinar</a></div>
-							<div class="col-right"><a href="#" class="button-nav">RESERVE MY SEAT</a></div>
+							<div class="col-left">
+								<a href="index.html"><strong> Business Progress Webinar </strong></a>
+							</div>
+							<div class="col-right">
+								<DIV class="cta-nav left timer">
+									<div id="countdown"></div>
+								</DIV>
+								<div class="cta-nav right">
+									<a href="#cta" class="button-nav">RESERVE MY SEAT</a>
+								</div>
+							</div>
 						</h1>
 
 						<!--
@@ -64,7 +74,9 @@
 					</section>
 
 					<!-- zero -->
-					
+					<div class="yellow">
+						
+					</div>
 
 					<!-- One -->
 					
@@ -157,11 +169,12 @@
 					</section>
 
 				<!--four-->
-					<div style="background: #2e3842 ;display: table;">
-						<div class="col-3" style="display:block; vertical-align: middle;" >
-							<img class="image" style="max-height: 100%;max-width: 100%;" src="images/rt.jpg" alt="Rajiv Talreja">
+					<div class="about">
+						<div class="col-3 left" >
+							<img class="image large" src="images/rt-large.jpg" alt="Rajiv Talreja">
+							<img class="image small" src="images/rt-small.jpg" alt="Rajiv Talreja">
 						</div>
-						<div class="col-9" style= " margin: auto; padding:2em 4em 0.1em 4em">
+						<div class="col-9 right">
 							<h2>ABOUT THE SPEAKER <strong>Rajiv Talreja</strong> </h2>
 
 							<p>I'm not your Motivational Guru or even a Business Coach. So, who am I? Well, you can say that I'm an Entrepreneur's Entrepreneur.</p>
@@ -219,6 +232,37 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+			<script>
+				// Set the date we're counting down to
+				var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
+
+				// Update the count down every 1 second
+				var x = setInterval(function() {
+
+				// Get today's date and time
+				var now = new Date().getTime();
+
+				// Find the distance between now and the count down date
+				var distance = countDownDate - now;
+
+				// Time calculations for days, hours, minutes and seconds
+				var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+				var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+				var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+				var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+				// Display the result in the element with id="demo"
+				document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
+				+ minutes + "m " + seconds + "s ";
+
+				// If the count down is finished, write some text
+				if (distance < 0) {
+					clearInterval(x);
+					document.getElementById("countdown").innerHTML = "EXPIRED";
+				}
+				}, 1000);
+			</script>
 
 	</body>
 </html>
