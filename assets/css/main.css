@@ -4096,7 +4096,8 @@ input, select, textarea {
 	.timer{
 		display: block;
 		text-align: center;
-		background-color: black ;		;
+		background-color: black ;
+		max-width: 100%;		;
 	}
 		.timer #countdown{
 			color: #f4da58;
