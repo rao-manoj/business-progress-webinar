@@ -4093,6 +4093,10 @@ input, select, textarea {
 		max-width: 100%;
 	}
 
+	img.image.large{
+		margin:5%;
+	}
+
 	.timer{
 		display: block;
 		text-align: center;
