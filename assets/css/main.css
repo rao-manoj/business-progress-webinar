@@ -3727,7 +3727,7 @@ input, select, textarea {
 				}
 
 				#banner .more {
-					display: none;
+					display: block;
 				}
 
 		}
@@ -4107,3 +4107,74 @@ input, select, textarea {
 			color: #f4da58;
 		}
 
+/* Slideshow container */
+.slideshow-container {
+	position: relative;
+	background:black;
+  }
+  
+  /* Slides */
+  .mySlides {
+	display: none;
+	padding: 80px;
+	text-align: center;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -30px;
+	padding: 16px;
+	color: #f4da58;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+	border: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+	position: absolute;
+	right: 0;
+	border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+	background-color:#f4da58;
+	color: black;
+  }
+  
+  /* The dot/bullet/indicator container */
+  .dot-container {
+	text-align: center;
+	padding: 20px;
+	background:black;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+  }
+  
+  /* Add a background color to the active dot/circle */
+  .active, .dot:hover {
+	background-color: #f4da58;
+  }
+  
+  /* Add an italic font style to all quotes */
+  q {font-style: italic;}
+  
+  /* Add a blue color to the author */
+  .author {color: whitesmoke;}
