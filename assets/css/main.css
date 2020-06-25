@@ -3518,7 +3518,7 @@ body.is-menu-visible #menu {
 
 @media screen and (max-width: 736px) {
     #banner {
-        padding: 7em 3em 5em 3em;
+        padding: 5em 3em 5em 3em;
         height: auto;
         min-height: 0;
     }
@@ -3529,7 +3529,7 @@ body.is-menu-visible #menu {
         display: none;
     }
     #banner .more {
-        display: block;
+        display: none;
     }
 }
 
@@ -4005,4 +4005,19 @@ ul.actions.button {
     margin-left: auto;
     margin-right: auto;
     padding: 0;
+}
+
+ul.actions.button li {
+    position: absolute;
+}
+
+.event {
+    position: relative;
+}
+
+@media only screen and (min-width: 768px) {
+    .event {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
 }
