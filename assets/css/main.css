@@ -3800,7 +3800,7 @@ body.is-mobile.landing #footer {
     text-align: center;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
     .col-left {
         width: 50%;
         float: left;
@@ -3868,7 +3868,7 @@ img.small {
     margin: auto;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
     img.large {
         display: block;
         margin: auto;
@@ -4015,7 +4015,7 @@ ul.actions.button li {
     position: relative;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
     .event {
         margin-left: 25%;
         margin-right: 25%;
