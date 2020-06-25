@@ -4031,8 +4031,15 @@ input, select, textarea {
 			width: 25%; 
 			
 		}
+		.col-4{
+			width:33.33%
+		}
 		.col-6{
 			width: 50%;
+		}
+
+		.col-8{
+			width:66.67%
 		}
 		.col-9{
 			width: 75%;			
@@ -4056,10 +4063,10 @@ input, select, textarea {
 		background: #2e3842 ;
 		 display: table;
 	}
-		.about .col-9{
+		.about .col-8{
 			margin: auto; 
 			padding:2em 4em 0.1em 4em;
-			text-align: left;
+			text-align: center;
 		}
 
 	.button-nav {
@@ -4095,6 +4102,8 @@ input, select, textarea {
 
 	img.image.large{
 		margin:5%;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	.timer{
