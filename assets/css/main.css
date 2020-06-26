@@ -3792,8 +3792,10 @@ body.is-mobile.landing #footer {
 
 /*Added by Manoj */
 
-
-/* For mobile phones: */
+.wrapper.style1 header.major h2,
+.wrapper.style3 header.major h2 {
+    border-color: grey;
+}
 
 [class*="col-"] {
     width: 100%;
@@ -3841,6 +3843,44 @@ body.is-mobile.landing #footer {
 
 .right {
     float: right;
+}
+
+.col-counter {
+    width: 50%;
+}
+
+@media only screen and (min-width: 900px) {
+    .col-counter {
+        width: 25%;
+    }
+}
+
+.counterdown {
+    background-color: #2e3842;
+    display: table;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: 0;
+}
+
+.counter-box {
+    margin: 10%;
+    padding: 2%;
+    border-radius: 20px;
+    background-color: #2e3842;
+    background-color: ;
+    color: #f4da58;
+    position: relative;
+}
+
+.counter {
+    color: #f4da58;
+}
+
+.counter-box p,
+.counter-box h3 {
+    margin: 0;
 }
 
 .about {
