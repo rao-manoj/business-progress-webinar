@@ -3856,7 +3856,6 @@ body.is-mobile.landing #footer {
 }
 
 .counterdown {
-    background-color: #2e3842;
     display: table;
     padding: 0;
     margin: 0;
@@ -3864,12 +3863,14 @@ body.is-mobile.landing #footer {
     top: 0;
 }
 
+.col-counter {
+    background-color: #2e3842;
+}
+
 .counter-box {
     margin: 10%;
     padding: 2%;
-    border-radius: 20px;
-    background-color: #2e3842;
-    background-color: ;
+    background-color: black;
     color: #f4da58;
     position: relative;
 }
